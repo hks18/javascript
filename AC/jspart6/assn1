@@ -1,0 +1,11 @@
+function duplicates(str){
+    let str3=""
+     for(let i=0;i<str.length;i++)
+     {
+        
+        if(str3[i]!=str[i])
+            str3[i]+=str[i];
+     }
+}
+let str="abcdab";
+console.log(duplicates(str));

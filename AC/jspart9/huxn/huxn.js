@@ -1,0 +1,5 @@
+const a=document.querySelector("a")
+console.log(a.getAttribute("href"))
+const b=document.querySelector(".udemy")
+b.setAttribute("href","https://www.youtube.com")
+console.log(b)
